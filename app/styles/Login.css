@@ -1,0 +1,113 @@
+.login-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(198, 233, 201);
+  border-radius: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+input {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  padding-inline: 10px;
+  border: 1px solid teal;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid darkcyan;
+}
+
+.login-page-btn {
+  width: 40%;
+  padding: 12px;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: darkcyan;
+}
+
+.register-link {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+hr{
+  outline: 1 solid black;
+}
+
+
+
+.last{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.or {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #888;
+  width: 300px;
+}
+
+.or::before,
+.or::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #aaa;
+  margin: 0 10px;
+}
+
+
+.github{
+  background-color: rgb(118, 212, 129);
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+p{
+  text-align: center;
+}

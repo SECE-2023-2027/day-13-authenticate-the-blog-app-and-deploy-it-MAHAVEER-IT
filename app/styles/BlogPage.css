@@ -1,0 +1,98 @@
+.create-btn {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: #064e3b;
+    color: white;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid white;
+    cursor: pointer;
+}
+
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    background-color: #14b8a6;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 40rem;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.blog-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form-heading {
+    font-weight: bold;
+    font-size: 1.875rem;
+    color: white;
+    text-align: center;
+}
+
+.form-input,
+.form-textarea {
+    width: 600px;
+    height: 2.5rem;
+    padding-inline: 1.25rem;
+    border-radius: 0.375rem;
+    outline: 2px solid white;
+}
+
+.form-textarea {
+    min-height: 100px;
+}
+
+.form-file {
+    outline: 2px solid white;
+    border-radius: 0.375rem;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.form-btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-btn {
+    background-color: #86efac;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #4ade80;
+}
+
+.close-btn {
+    background-color: #fca5a5;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #ef4444;
+}
+
+
