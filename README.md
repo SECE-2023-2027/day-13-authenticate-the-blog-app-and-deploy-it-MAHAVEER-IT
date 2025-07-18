@@ -1,1 +1,1 @@
-# Live Link : (https://next-blog-app-ashy-three.vercel.app/)[https://next-blog-app-ashy-three.vercel.app/]
+# Live Link : (https://next-blog-app-ashy-three.vercel.app/)
